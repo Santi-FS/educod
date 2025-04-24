@@ -10,7 +10,7 @@ const checkIcon = (
 const AboutSectionOne = () => {
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+      <span className="mr-4 flex h-[30px] w-[25px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
         {checkIcon}
       </span>
       {text}
@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Un software exclusivo para cada escuela"
+                paragraph="Lo que nos diferencia de la competencia está en la calidad de nuestros productos y en el nivel de personalización que podemos brindarte. Vas a poder establecer:"
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Escudo/Logo institucional" />
+                    <List text="Paleta de colores" />
+                    <List text="Tipografías" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Contenido de documentos" />
+                    <List text="Roles de usuario" />
+                    <List text="Y mucho más..." />
                   </div>
                 </div>
               </div>

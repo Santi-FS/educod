@@ -1,21 +1,52 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
-  // other metadata
+  title: "Sobre Nosotros | EduCod - Tecnología al Servicio de la Educación",
+  description:
+    "En EduCod, fusionamos la tecnología y la educación para potenciar el aprendizaje sin reemplazar la labor docente. Descubre cómo nuestras soluciones innovadoras transforman la enseñanza.",
+  keywords: [
+    "educación digital",
+    "tecnología educativa",
+    "Moodle",
+    "apps educativas",
+    "desarrollo web",
+    "transformación digital",
+    "instituciones educativas",
+    "soluciones tecnológicas"
+  ],
+  openGraph: {
+    title: "Sobre Nosotros | EduCod - Tecnología al Servicio de la Educación",
+    description:
+      "Conoce cómo en EduCod integramos el código y la educación para mejorar el aprendizaje sin sustituir la actividad docente.",
+    url: "https://www.educod.com.ar/about",
+    type: "website",
+    images: [
+      {
+        url: "https://www.educod.com.ar/images/about/about-og.webp",
+        width: 1024,
+        height: 1024,
+        alt: "Integración de tecnología y educación en EduCod"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sobre Nosotros | EduCod - Tecnología al Servicio de la Educación",
+    description:
+      "En EduCod, la tecnología y la educación se unen para transformar el aprendizaje sin reemplazar la labor docente.",
+    images: ["https://www.educod.com.ar/images/about/about-og.webp"]
+  }
 };
 
 const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Sobre Nosotros"
+        description="En EduCod, creemos en una sinergia entre la tecnología y la educación. Ofrecemos soluciones digitales que complementan y potencian la labor docente, respetando siempre el rol fundamental del educador."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

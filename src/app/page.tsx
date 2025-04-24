@@ -12,8 +12,9 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Sobre Nosotros | EduCod - Tecnología al Servicio de la Educación",
+  description:
+    "En EduCod apostamos por una sinergia entre tecnología y educación. Ofrecemos herramientas digitales que complementen y potencien la labor docente, respetando siempre el rol fundamental del educador.",
   // other metadata
 };
 
@@ -23,8 +24,8 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
-      <Brands />
+      {/* <Video /> */}
+      {/* <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />

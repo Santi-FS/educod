@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="¿Que ofrecemos?"
+            paragraph="Nuestra oferta incluye una aplicación personalizada de gestión educativa, creación de sitios web a la medida, aulas virtuales Moodle y mucho más. Además, te ofrecemos:"
             center
           />
 

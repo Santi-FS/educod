@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Hosting para Moodle"
+          paragraph="Moodle es una plataforma profesional de aprendizaje en línea. Permite a educadores gestionar cursos, contenidos, evaluaciones y usuarios de manera sencilla y eficiente. En EduCod te ofrecemos alojamiento a la medida de tus necesidades. Para más opciones, contactanos."
           center
           width="665px"
         />
@@ -27,7 +27,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+              Mensual
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,50 +52,65 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              Anual
             </span>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Básico"
+            price={isMonthly ? "50.000" : "400.000"}
+            duration={isMonthly ? "mes" : "año"}
+            subtitle="Pensado para escuelas con un tope de 300 usuarios."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="50Gb de almacenamiento" status="active" />
+            <OfferList text="4 vCPU's + 4 GB RAM" status="active" />
+            <OfferList text="Recomendado hasta 300 usuarios" status="active" />
+            <OfferList text="Envío de Email automáticos " status="active" />
+            <OfferList
+              text="Tutoriales para Creadores de Cursos"
+              status="active"
+            />
+            <OfferList text="Tutoriales para Docentes" status="active" />
+            <OfferList text="Certificado SSL" status="inactive" />
+            <OfferList text="Dominio.com.ar" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Intermedio"
+            price={isMonthly ? "90.000" : "720.000"}
+            duration={isMonthly ? "mes" : "año"}
+            subtitle="Pensado para escuelas con un tope de 1000 usuarios."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="200Gb de almacenamiento" status="active" />
+            <OfferList text="8 vCPU's + 8 GB RAM" status="active" />
+            <OfferList text="Recomendado hasta 1000 usuarios" status="active" />
+            <OfferList text="Envío de Email automáticos " status="active" />
+            <OfferList
+              text="Tutoriales para Creadores de Cursos"
+              status="active"
+            />
+            <OfferList text="Tutoriales para Docentes" status="active" />
+            <OfferList text="Certificado SSL" status="active" />
+            <OfferList text="Dominio.com.ar" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Premium"
+            price={isMonthly ? "---" : "---"}
+            duration={isMonthly ? "mes" : "año"}
+            subtitle="Pensado para escuelas con un tope de 3500 usuarios."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="400Gb de almacenamiento" status="active" />
+            <OfferList text="12 vCPU's + 16 GB RAM" status="active" />
+            <OfferList text="Recomendado hasta 3500 usuarios" status="active" />
+            <OfferList text="Envío de Email automáticos " status="active" />
+            <OfferList
+              text="Tutoriales para Creadores de Cursos"
+              status="active"
+            />
+            <OfferList text="Tutoriales para Docentes" status="active" />
+            <OfferList text="Certificado SSL" status="active" />
+            <OfferList text="Dominio.com.ar" status="active" />
           </PricingBox>
         </div>
       </div>

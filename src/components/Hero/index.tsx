@@ -16,9 +16,8 @@ const Hero = () => {
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   En EduCod apostamos por una sinergia entre tecnología y
-                  educación. Ofrecemos herramientas digitales que complementen y
-                  potencien la labor docente, respetando siempre el rol
-                  fundamental del educador.
+                  educación. Ofrecemos herramientas digitales que complementan y
+                  potencian la labor docente.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

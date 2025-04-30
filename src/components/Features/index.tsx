@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="¿Que ofrecemos?"
-            paragraph="En EduCod podemos ofrecerte una página web totalmente integrada a una aplicación de gestión educativa. Esto trae muchas mejoras, sobre todo en la comunicación con la comunidad educativa; mejorar la organización de la documentación,  una aplicación personalizada de gestión educativa, creación de sitios web a la medida, aulas virtuales Moodle y mucho más. Además, te ofrecemos:"
+            paragraph="En EduCod podemos diseñarte una página web moderna y responsiva que esté completamente integrada al software de gestión educativa. Esto trae mejoras significativas en la comunicación intra e inter institucional y por otro lado agiliza enormemente la organización de documentación."
             center
           />
 

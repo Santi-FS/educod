@@ -82,7 +82,7 @@ const Pricing = () => {
             duration={isMonthly ? "mes" : "año"}
             subtitle="Pensado para escuelas con un tope de 1000 usuarios."
           >
-            <OfferList text="200Gb de almacenamiento" status="active" />
+            <OfferList text="150Gb de almacenamiento" status="active" />
             <OfferList text="8 vCPU's + 8 GB RAM" status="active" />
             <OfferList text="Recomendado hasta 1000 usuarios" status="active" />
             <OfferList text="Envío de Email automáticos " status="active" />
@@ -95,12 +95,12 @@ const Pricing = () => {
             <OfferList text="Dominio.com.ar" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Premium"
+            packageName="BigMac"
             price={isMonthly ? "---" : "---"}
             duration={isMonthly ? "mes" : "año"}
             subtitle="Pensado para escuelas con un tope de 3500 usuarios."
           >
-            <OfferList text="400Gb de almacenamiento" status="active" />
+            <OfferList text="450Gb de almacenamiento" status="active" />
             <OfferList text="12 vCPU's + 16 GB RAM" status="active" />
             <OfferList text="Recomendado hasta 3500 usuarios" status="active" />
             <OfferList text="Envío de Email automáticos " status="active" />

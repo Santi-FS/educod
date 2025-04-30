@@ -12,9 +12,9 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sobre Nosotros | EduCod - Tecnología al Servicio de la Educación",
+  title: "EduCod - Tecnología al Servicio de la Educación",
   description:
-    "En EduCod apostamos por una sinergia entre tecnología y educación. Ofrecemos herramientas digitales que complementen y potencien la labor docente, respetando siempre el rol fundamental del educador.",
+    "En EduCod apostamos por una sinergia entre tecnología y educación. Ofrecemos herramientas digitales que complementan y potencian la labor docente.",
   // other metadata
 };
 
@@ -30,7 +30,7 @@ export default function Home() {
       <AboutSectionTwo />
       {/* <Testimonials /> */}
       <Pricing />
-      <Blog />
+      {/* <Blog /> */}
       <Contact />
     </>
   );

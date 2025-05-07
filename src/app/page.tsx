@@ -1,22 +1,17 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
+// import Blog from "@/components/Blog";
+// import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
-import { Metadata } from "next";
+// import Testimonials from "@/components/Testimonials";
+// import Video from "@/components/Video";
+import { meta } from "@/components/Metadata";
 
-export const metadata: Metadata = {
-  title: "EduCod - Tecnología al Servicio de la Educación",
-  description:
-    "En EduCod apostamos por una sinergia entre tecnología y educación. Ofrecemos herramientas digitales que complementan y potencian la labor docente.",
-  // other metadata
-};
+export const metadata = meta;
 
 export default function Home() {
   return (

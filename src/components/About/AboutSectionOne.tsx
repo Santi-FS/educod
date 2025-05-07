@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Un software exclusivo para cada escuela"
-                paragraph="Lo que nos diferencia de la competencia está en la calidad de nuestros productos y en el nivel de personalización que podemos brindarte. Vas a poder establecer:"
+                paragraph="No vas a tener que adaptarte a un software genérico, sino que vas a contar con un sistema diseñado y funcionando exclusivamente para tu institución. Cada módulo del software y los usuarios que tengan acceso a él pueden ser configurados por el equipo directivo de forma muy sencilla. Además contarás con:"
                 mb="44px"
               />
 
